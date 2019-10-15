@@ -10,7 +10,12 @@ var vm = new Vue({
         ],
         title:['显示', '隐藏'],
         tableData:[],
-        show_keys:[]
+        show_keys:[],
+        options:[
+            {value:1,label:'男'},
+            {value:2,label:'女'}
+        ],
+        sex:""
     },
     created:function(){
         this.tableData = [ 
