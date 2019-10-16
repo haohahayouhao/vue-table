@@ -1,3 +1,6 @@
+import Vue from 'vue/dist/vue';
+import ElementUi from 'element-ui/lib/index';
+Vue.use(ElementUi);
 var vm = new Vue({
     el:'#app',
     data:{
